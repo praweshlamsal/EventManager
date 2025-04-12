@@ -28,8 +28,8 @@ export default function SignIn() {
   } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
-      email: 'prawesh@gmail.com',
-      password: '11111111',
+      email: '',
+      password: '',
     },
   });
 
